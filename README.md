@@ -2,10 +2,10 @@
 A hands-free automated script that uploads files to your GitHub repository. 
 Just type `upload` in Terminal, hit enter, and watch it go!
 
-- [Setup](https://github.com/ishaanjav/GitHub-Automated-File-Uploader/blob/main/README.md#setup)   *(Less than a minute)*
-- [Features](https://github.com/ishaanjav/GitHub-Automated-File-Uploader/blob/main/README.md#features)
-- [Usage](https://github.com/ishaanjav/GitHub-Automated-File-Uploader/blob/main/README.md#usage)
-- [Contact Me/Questions](https://github.com/ishaanjav/GitHub-Automated-File-Uploader/blob/main/README.md#contact-me--questions)
+- [Setup](https://github.com/ishaanjav/GitHub-Automated-File-Uploader#setup)   *(Less than a minute)*
+- [Features](https://github.com/ishaanjav/GitHub-Automated-File-Uploader#features)
+- [Usage](https://github.com/ishaanjav/GitHub-Automated-File-Uploader#usage)
+- [Contact Me/Questions](https://github.com/ishaanjav/GitHub-Automated-File-Uploader#contact-me--questions)
 
 -----
 
@@ -15,7 +15,7 @@ Just type `upload` in Terminal, hit enter, and watch it go!
 2. Install the Selenium Webdriver by typing this in Terminal: `pip install selenium`
 3. In [`upload.py`](https://github.com/ishaanjav/GitHub-Automated-File-Uploader/blob/main/upload.py), enter in the link for the repository you want to upload to on line 14, and your GitHub login on lines 16 and 17.
 
-**That's it! To run the automated tool just type `upload` in Terminal and hit enter!** For more commands check out the [Usage Section](https://github.com/ishaanjav/GitHub-Automated-File-Uploader/blob/main/README.md#usage).
+**That's it! To run the automated tool just type `upload` in Terminal and hit enter!** For more commands check out the [Usage Section](https://github.com/ishaanjav/GitHub-Automated-File-Uploader#usage).
 
 ## Features
 - Upload all files in a directory
@@ -23,7 +23,7 @@ Just type `upload` in Terminal, hit enter, and watch it go!
 
 ### In this Repo:
 - **Python script** 
-  - for automated uploading of files to GitHub: just run `python upload.py` followed by the information in the [Usage Section](https://github.com/ishaanjav/GitHub-Automated-File-Uploader/blob/main/README.md#usage)
+  - for automated uploading of files to GitHub: just run `python upload.py` followed by the information in the [Usage Section](https://github.com/ishaanjav/GitHub-Automated-File-Uploader#usage)
 - **Bash script** 
   - shorter command to run the automation tool: just type `upload` in terminal and hit enter!
   - uploads files even if the Python script is not in the same directory
