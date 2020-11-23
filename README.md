@@ -1,5 +1,6 @@
 # GitHub-Automated-File-Uploader
-A hands-free automated script that uploads files to your GitHub repository. 
+A hands-free automated script that uploads files to your GitHub repository. The files don't have to be in a git directory, they can be anywhere.
+
 Just type `upload` in Terminal, hit enter, and watch it go!
 
 - [Setup](https://github.com/ishaanjav/GitHub-Automated-File-Uploader#setup)   *(Less than a minute)*
@@ -16,6 +17,8 @@ Just type `upload` in Terminal, hit enter, and watch it go!
 3. In [`upload.py`](https://github.com/ishaanjav/GitHub-Automated-File-Uploader/blob/main/upload.py), enter in the link for the repository you want to upload to on line 14, and your GitHub login on lines 16 and 17.
 
 **That's it! To run the automated tool just type `upload` in Terminal and hit enter!** For more commands check out the [Usage Section](https://github.com/ishaanjav/GitHub-Automated-File-Uploader#usage).
+
+-----
 
 ## Features
 - Upload all files in a directory
