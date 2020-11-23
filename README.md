@@ -11,7 +11,7 @@ Just type `upload` in Terminal, hit enter, and watch it go!
 
 ## Setup
 1. Copy paste the [bash function](https://github.com/ishaanjav/GitHub-Automated-File-Uploader/blob/main/bash_script.sh) into `bash_profile` or `bashrc`. On line 5 of the bash function, enter the path to the folder where the `upload.py` script is.
-  - To do this type `open ~/.bash_profile` and paste the code in or do `echo "<PASTE FUNCTION HERE>" > ~/.bash_profile` *(all inside Terminal)*
+  - *To do this type `open ~/.bash_profile` or `nano ~/.bash_profile` and paste the code in (all inside Terminal)*
 2. Install the Selenium Webdriver by typing this in Terminal: `pip install selenium`
 3. In [`upload.py`](https://github.com/ishaanjav/GitHub-Automated-File-Uploader/blob/main/upload.py), enter in the link for the repository you want to upload to on line 14, and your GitHub login on lines 16 and 17.
 
